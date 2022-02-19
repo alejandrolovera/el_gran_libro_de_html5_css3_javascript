@@ -232,6 +232,25 @@
                 <p>
                     <label>Texto: <textarea name="texto" id="" cols="50" rows="6"></textarea></label>
                 </p>
+
+                <p>
+                    <label for="listado">Libros</label>
+                    <select name="libro" id="listado">
+                        <option value="1">IT</option>
+                        <option value="2">Carrie</option>
+                        <option value="3">El Resplandor</option>
+                        <option value="4">Misery</option>
+                    </select>
+                </p>
+
+                <datalist id="datos">
+                    <option value="123123123" label="Teléfono 1"></option>
+                    <option value="456456456" label="Teléfono 2"></option>
+                </datalist>
+                <p><label>Teléfono: <input type="tel" name="teléfono" list="datos"> </label></p>
+
+                <progress value="30" max="100">0%</progress>
+                <meter value="60" min="0" max="100" low="40" high="80" optimum="100">60</meter>
                 
                 <p>
                     <button type="submit">Enviar Formulario</button>
@@ -334,6 +353,16 @@
     img CREA UN BOTÓN CON UNA IMAGEN. ESTOS TIPOS DE CAMPOS REQUIEREN EL ATRIBUTO src CON LA URL DEL ARCHIVO.
 
     HTML OFRECE UN ELEMENTO MÁS VERSATIL PARA CREAR BOTONES <button> ESTE ELEMENTO INCLUYE EL ATRIBUTO type PARA DETERMINAR EL TIPO DE BOTÓN QUE QUEREMOS GENERAR. SI QUEREMOS ENVIAR EL FORMULARIO DEBEMOS DECLARAR EL VALOR submit
+
+    HTML OFRECE ADEMÁS EL ELEMENTO <textarea> PARA INSERTAR MÚLTIPLES LINEAS DE TEXTO INCLUYE LOS ATRIBUTOS rows y cols PARA DEFINIR EL ANCHO Y LA ALTURA DEL ÁREA EN CARACTERES
+
+    HTML TAMBIÉN OFRECE EL ELEMENTO <select> PARA PRESENTAR UNA LISTA DE VALORES AL USUARIO. TRABAJA CON ELE ELEMENTO <option> PARA DEFINIR LAS OPCIONES. <select> DEBE INCLUIR EL ATRIBUTO name PARA IDENTIFICAR EL VALOR Y CADA ELEMENTO <option> DEBE INCLUIR EL ATRIBUTO value PARA DEFINIR EL VALOR QUE REPRESENTA.
+
+    <datalist> DEFINE UNA LISTA DE ÍTEMS QUE CON LA AYUDA DEL ATRIBUTO list SE PUEDE USAR COMO SUGERENCIA EN UN CAMPO DE ENTRADA
+
+    EL ELEMENTO <progress> SE USA PARA INFORMAR DEL ROGRESO EN LA EJECUCIÓN DE UNA TAREA
+
+    EL ELEMENTO <meter> SE USA PARA MOSTRAR UNA ESCALA PERO NO REPRESENTA PROGRESO. SU PROPOSITO ES REPRESENTAR UN RANGO DE VALORES PREDEFINIDOS.
 
 
 
