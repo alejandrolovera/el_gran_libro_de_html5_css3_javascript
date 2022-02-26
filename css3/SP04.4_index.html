@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="misestilos_04.4.css">
+    <title>Referencias Otros atributos</title>
+</head>
+<body>
+    <main>
+        <header name="miheader">
+            <h1>Título</h1>
+            <h2>Subtítulo</h2>
+            <p>Esta es la introducción</p>
+        </header>
+        <section>
+            <article> 
+                <h3 name="mih3">Soy un h3</h3>
+                <p name="mi texto">Frase 1</p>
+                <p name="mitexto">Frase 2</p>
+                <p name="mitexto">Frase 3</p>
+                <p name="textomi">Frase 4</p>
+                <p name="textomifrase">Frase 5</p>
+                <ol>
+                    <li>Lista 1</li>
+                    <li>Lista 2</li>
+                    <li>Lista 3</li>
+                    <li>Lista 4</li>
+                </ol>
+            </article>
+        </section>
+    </main>
+</body>
+</html>
+
+
+<!-- !
+
+    * 3.2 REFERENCIAS
+
+    EXISTEN VARIOS MÉTODOS PARA SELECCIONAR LOS ELEMENTOS QUE SERÁN AFECTADOS POR UNA REGLA CSS. HEMOS UTILIZADO ANTES EL NOMBRE DEL ELEMENTO, PERO PODEMOS USAR LOS VALORES DE LOS ATRIBUTOS id Y class PARA REFERENCIAR SOLO UN ELEMENTO O UN GRUPO DE ELEMENTOS.
+
+
+     * OTROS ATRIBUTOS:
+
+    CSS NOS PERMITE REFERENCIAR UN ELEMENTO POR MEDIO DE CUALQUIER OTRO ATRIBUTO QUE NECESITEMOS. LA SINTAXIS PARA DEFINIR ESTA CLASE DE SELECTORES INCLUYE EL NOMBRE DEL ELEMENTO SEGUIDO DEL NOMBRE DEL ATRIBUTO EN CORCHETES [].
+
+    p[name]{
+        font-size: 20px;
+    }
+
+    CSS NOS PERMITE COMBINAR EL CARÁCTER (=) CON OTROS CARACTERES PARA REALIZAR UNA SELECCIÓN MÁS ESPECÍFICA. 
+    
+    (~=) REFERENCIA CUALQUIER ELEMENTO X CON ATRIBUTO X CUYO VALOR "INCLUYE" LA PALABRA ESPECIFICADA
+    (^=) REFERENCIA CUALQUIER ELELENTO X CON EL ATRIBUTO X CUYO VALOR "COMIENZA" CON LA PALABRA ESPECIFICADA
+    ($=) REFERENCIA CUALQUIER ELELENTO X CON EL ATRIBUTO X CUYO VALOR "TERMINA" CON LA PALABRA ESPECIFICADA
+    (*=) REFERENCIA CUALQUIER ELELENTO X CON EL ATRIBUTO X CUYO VALOR "CONTIENE LA CADENA DE CARACTERES" ESPECIFICADA
+
+! -->

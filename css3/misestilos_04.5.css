@@ -1,0 +1,46 @@
+body {
+    background-color: azure;
+}
+
+p:nth-child(1) {
+    font-size: 20px;
+}
+
+p:nth-child(1) {
+    background-color: aqua;
+}
+
+p:nth-child(2) {
+    font-size: bold;
+    background-color: coral;
+}
+
+p:nth-child(3) {
+    font-size: 20px;
+    background-color: aqua;
+}
+
+p:nth-child(4) {
+    font-size: bold;
+    background-color: coral;
+}
+
+ol>li:nth-child(odd) {
+    background-color: darkorange;
+}
+
+ol>li:nth-child(even) {
+    background-color: deepskyblue;
+}
+
+ul>li:first-child {
+    background-color: darkgreen;
+}
+
+ul>li:last-child {
+    background-color: deeppink;
+}
+
+:not(.miseccion) {
+    font-size: 25px;
+}

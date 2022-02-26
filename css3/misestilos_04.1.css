@@ -1,0 +1,27 @@
+body {
+    background-color: azure;
+}
+h1,h2 {
+    color: blueviolet;
+    font-size: 30px;
+}
+
+main header {
+    background-color: gainsboro;
+}
+
+header > p {
+    color: violet;
+    font-size: 20px;
+}
+
+h3 + p {
+    background-color: brown;
+    font-size: 20px;
+}
+
+p ~ ol {
+    background-color: blue;
+    font-size: 24px;
+    
+}
